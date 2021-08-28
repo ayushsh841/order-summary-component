@@ -1,0 +1,36 @@
+.plan__container,
+.plan__description {
+  display: flex;
+}
+
+.plan__description {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plan__container {
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.plan__container button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.plan__container button:hover,
+.plan__description span:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan__description span:first-child {
+  font-weight: 700;
+}
+

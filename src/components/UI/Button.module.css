@@ -1,0 +1,30 @@
+.button__primary,
+.button__secondary {
+  border: none;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.button__primary {
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: 0 0.5rem 2rem 0.1rem hsl(224, 23%, 55%);
+}
+
+.button__secondary {
+  background-color: transparent;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 0.75rem;
+}
+
+.button__primary:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.button__secondary:hover {
+  color: hsl(223, 47%, 23%);
+}

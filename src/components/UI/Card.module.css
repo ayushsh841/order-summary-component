@@ -1,0 +1,12 @@
+.card {
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 568px) {
+  .card {
+    max-width: 30%;
+    box-shadow: 0rem 1rem 1rem hsl(224, 23%, 55%);
+  }
+}

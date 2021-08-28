@@ -1,0 +1,25 @@
+.summary__img {
+  width: 100%;
+}
+
+.summary__container {
+  background-color: #fff;
+}
+
+.summary__container h2,
+.summary__text {
+  text-align: center;
+}
+
+ .summary__text p {
+  margin: 1rem;
+  font-size: 16px;
+  padding: 0.5rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.summary__button_container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
