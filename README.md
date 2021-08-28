@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (http://ayushsh841.github.io/order-summary)
+- Live Site URL: (https://ayushsh841.github.io/order-summary-component/)
 
 ### Built with
 
