@@ -8,6 +8,8 @@ function App() {
       <Card>
         <OrderSummary></OrderSummary>
       </Card>
+
+      <a href="https://github.com/ayushsh841/order-summary-component">Source Code</a>
     </div>
   );
 }
