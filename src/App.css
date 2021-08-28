@@ -3,17 +3,20 @@
 .App {
   background-image: url('./assets/pattern-background-mobile.svg');
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: hsl(225, 100%, 94%);
-  height: 100vh;
   display: grid;
   justify-items: center;
   align-items: center;
   font-family: 'Red Hat Display', sans-serif;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 568px) {
   .App {
     background-image: url('./assets/pattern-background-desktop.svg');
-    height: auto;
+    padding: 5%;
   }
 }

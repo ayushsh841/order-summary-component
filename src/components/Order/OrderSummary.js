@@ -11,7 +11,7 @@ const OrderSummary = props => {
         <img src={Hero} className={classes.summary__img} alt="illustrated hero" />        
       </div>
       <div className={classes.summary__text}>
-        <h2>Order Summary</h2>
+        <h1>Order Summary</h1>
         <p>
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
