@@ -9,9 +9,7 @@
   justify-items: center;
   align-items: center;
   font-family: 'Red Hat Display', sans-serif;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
 }
 
 @media screen and (min-width: 568px) {

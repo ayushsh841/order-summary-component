@@ -8,7 +8,7 @@ const OrderSummary = props => {
   return (
     <div className={classes.summary__container}>
       <div>
-        <img src={Hero} className={classes.summary__img} alt="illustrated hero" />        
+        <img src={Hero} className={classes.summary__img} alt="" />        
       </div>
       <div className={classes.summary__text}>
         <h1>Order Summary</h1>

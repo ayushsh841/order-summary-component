@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 568px) {
   .card {
-    max-width: 30%;
+    max-width: 25rem;
     box-shadow: 0rem 1rem 1rem hsl(224, 23%, 55%);
   }
 }
